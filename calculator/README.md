@@ -3,7 +3,7 @@
 ## Features
 - Allow user input
 - Perform calculation
-- Ouput the result of the calculation
+- Output the result of the calculation
 
 ## Technolgy used
 - php
@@ -15,7 +15,9 @@
 ## Current appearance
 - input form
 
-![alt text](image.png)
+![image](https://github.com/stoicdavi/phpProjects/assets/117593948/6e7415ab-a923-4f31-96c5-f96bb94e30e2)
+
 
 - result
-![alt text](image-1.png)
+![image](https://github.com/stoicdavi/phpProjects/assets/117593948/97312211-70ad-4b92-8ee3-de1c9af36da9)
+
