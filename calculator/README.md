@@ -11,7 +11,11 @@
 ### How to collaborate
 - git clone https://github.com/stoicdavi/phpProjects.git
 - cd PhpProjects/calculator
-- you can run the program to test on your machine
+- Ensure that you have xampp server installed on your machine
+- Navigate to the htdocs in xampp, you can now go ahead and copy the calculator folder with its files to the htdocs folder
+- Start your xampp server, open any browser of your preference, and type 'localhost/calculator/' this will open the homepage of this calculator
+- Where  you will be able to input your values for calculations.
+- Happy coding :)
 ## Current appearance
 - input form
 
