@@ -1,7 +1,7 @@
 # MARKET PLACE CALCULATOR APP
 - This is a simple app project that
-- Allows user to register
-- Allows user to log in
+- Allows user to register using a unique username
+- Allows only registered users to log in
 - Allows a user to calculate the selling price of products they wish to
 
 ## To test this on your machine
