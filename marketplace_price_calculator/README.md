@@ -36,8 +36,8 @@ Alter table registration add unique(`username`);
 - you cannot register using the same username you'll get an error message
 ![image](https://github.com/stoicdavi/phpProjects/assets/117593948/c5311ad7-8da2-4e7f-be02-1a9d92563d1a)
 #### Login page
-![alt text](image-1.png)
+![image](https://github.com/stoicdavi/phpProjects/assets/117593948/7de7eb0e-03e7-4f83-ba15-a9766f8aaa1d)
 - it ensures that only registered user can login using the right password ans uername
 #### On successful login
-![alt text](image.png)
+![image](https://github.com/stoicdavi/phpProjects/assets/117593948/2a08f0ad-cae6-401f-b594-be2830a628de)
 - when you click logout on the marketplace page, youe are directed back to the loginpage.
