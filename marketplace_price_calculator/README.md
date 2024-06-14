@@ -2,17 +2,17 @@
 - This is a simple app project that
 - Allows user to register
 - Allows user to log in
-- Allows a user to calculate the selling price of a product
+- Allows a user to calculate the selling price of products they wish to
 
 ## To test this on your machine
 - Ensure you have xampp server installed
-- clone this in yout xampp- htdocs folder, start your xampp server
-- navigate to your browers, type in the search bar localhost/'follow by the path of your files location'
+- clone this in your xampp- htdocs folder, start your xampp server
+- navigate to your browser, type in the search bar localhost/' followed by the path of the location of your file'
 
 ## To start working on this project, Create a database with any name of your preference
--  create a table using this sql statement, copy and paste it in your 
+-  create a table using this SQL statement, copy and paste it into your 
 
-Create database marketplace;
+Create a database marketplace;
 use marketplace;
 
 CREATE table registration
@@ -23,7 +23,7 @@ password varchar(50)
 );
 - alter the table to allow unique user names only- i.e does not allow a username to be repeated
 Alter table registration add unique(`username`);
-## Open the connect.php file and append in required data to connect with your database
+## Open the connect.php file and append the required data to connect with your database
 
 ## Technologies used 
 - PHP
@@ -37,7 +37,7 @@ Alter table registration add unique(`username`);
 ![image](https://github.com/stoicdavi/phpProjects/assets/117593948/c5311ad7-8da2-4e7f-be02-1a9d92563d1a)
 #### Login page
 ![image](https://github.com/stoicdavi/phpProjects/assets/117593948/7de7eb0e-03e7-4f83-ba15-a9766f8aaa1d)
-- it ensures that only registered user can login using the right password ans uername
+- it ensures that only registered users can login using the right password and username
 #### On successful login
 ![image](https://github.com/stoicdavi/phpProjects/assets/117593948/2a08f0ad-cae6-401f-b594-be2830a628de)
-- when you click logout on the marketplace page, youe are directed back to the loginpage.
+- when you click logout on the marketplace page, you are directed back to the login page.
