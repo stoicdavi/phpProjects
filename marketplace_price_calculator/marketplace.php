@@ -49,7 +49,7 @@ if (!isset($_SESSION['username'])) {
                     </div>
                 </div>
             </div>
-            <!-- <button type="button" onclick="addProduct()" class="btn btn-secondary mt-3">Add Another Product</button> -->
+            <button type="button" onclick="addProduct()" class="btn btn-secondary mt-3">Add Another Product</button>
             <button type="submit" name="calculate" class="btn btn-primary mt-3">Calculate Prices</button>
         </form>
 
@@ -90,7 +90,7 @@ if (!isset($_SESSION['username'])) {
         }
         ?>
 
-        <!-- <script>
+        <script>
             function addProduct() {
                 const productForms = document.getElementById('product-forms');
                 const productForm = document.createElement('div');
@@ -121,7 +121,7 @@ if (!isset($_SESSION['username'])) {
                 `;
                 productForms.appendChild(productForm);
             }
-        </script> -->
+        </script>
     </div>
 </body>
 </html>
