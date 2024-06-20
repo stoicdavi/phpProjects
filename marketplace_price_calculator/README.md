@@ -37,7 +37,15 @@ Alter table registration add unique(`username`);
 ![image](https://github.com/stoicdavi/phpProjects/assets/117593948/c5311ad7-8da2-4e7f-be02-1a9d92563d1a)
 #### Login page
 ![image](https://github.com/stoicdavi/phpProjects/assets/117593948/7de7eb0e-03e7-4f83-ba15-a9766f8aaa1d)
-- it ensures that only registered users can login using the right password and username
+- it ensures that only registered users can log in using the right password and username
 #### On successful login
 ![image](https://github.com/stoicdavi/phpProjects/assets/117593948/2a08f0ad-cae6-401f-b594-be2830a628de)
 - when you click logout on the marketplace page, you are directed back to the login page.
+
+  ## The database
+### How the database appears, I did not hash the passwords which is why they can be seen as real numbers in the db as shown below
+![image](https://github.com/stoicdavi/phpProjects/assets/117593948/de09298a-b3ce-46d6-bcd1-00e1125e8282)
+
+- This displays some registered users, then I set the User ID to the primary key and they are auto-generated
+- The username must also be unique
+
