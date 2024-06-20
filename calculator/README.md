@@ -24,4 +24,6 @@
 
 - result
 ![image](https://github.com/stoicdavi/phpProjects/assets/117593948/97312211-70ad-4b92-8ee3-de1c9af36da9)
-
+## Technologies used
+- PHP
+- bootstrap css
