@@ -9,7 +9,7 @@
 <body>
 <div class="container mx-50 text-success">
     <form action="circle.php" method="post" class="center">
-        <h1 class="text-center">Checking for even or odd number</h1>
+        <h1 class="text-center">Even, odd or a prime number identifier</h1>
         <label for="number"></label>
         <input type="text" name="number" id="">
         <input type="submit" name="Area">
