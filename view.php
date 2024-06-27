@@ -12,14 +12,14 @@ include 'db.php';
 
 <body>
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-     <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="view.php">View Ratings</a></li>
+     <ul class="row mx-auto w-75">
+          <li class="list-style-none w-50"><a href="index.php"  class="text-decoration-none">Home</a></li>
+          <li class="list-style-none w-50"><a href="view.php" class="text-decoration-none">View Ratings</a></li>
      </ul>
    </nav> 
    <section>
      <div class="container">
-          <h1>Rate Your Politician</h1>
+          <h1>Your Ratings</h1>
           <table class="table table-striped table-bordered">
           <thead>
                <tr>

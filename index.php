@@ -31,18 +31,20 @@ if (isset($_POST['submit'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link href="Style.css" >
     <title>Home</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="view.php">Rates</a></li>
-            <li><a href=".php"></a></li>
+    <nav class="bg-light content-flex wrap">
+    <ul class="row mx-auto w-75">
+            <li class="list-style-none w-50"><a href="index.php"  class="text-decoration-none">Home</a></li>
+            <li class="list-style-none w-50"><a href="view.php" class="text-decoration-none">View Ratings</a></li>
         </ul>
+    </nav>
         <section>
             <div class="container">
+            <h2>Help Us Rate Your Political Representative</h2>
+
                 <form action="" method="post">
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
@@ -64,6 +66,6 @@ if (isset($_POST['submit'])){
                 </form>
             </div>
         </section>
-    </nav>
+    
 </body>
 </html>
