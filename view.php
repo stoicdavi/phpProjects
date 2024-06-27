@@ -1,25 +1,6 @@
 <?php
 include 'db.php';
-$id = $name = $email = $feedback = $rate = $dateset = " ";
-if ($_SERVER['REQUEST_METHOD'] == 'GET'){
-     $sql = "SELECT * FROM feedback";
-     $result = $connection->query($sql);
-     if ($result->num_rows > 0){
-          while ($row = $result->fetch_assoc()){
-               $id = $row['id'];
-               $name =  $row['name'];
-               $email =  $row['email'];
-               $feedback = $row['feedback'];
-               $rate = $row['rating'] . "<br>";
-               $dateset =  $row['submission_date'] ;
-          }
-     } else {
-          echo "No feedback available";
-     }
-} 
-
 ?>
-//disply the user ratings
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,6 +32,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET'){
                </tr>
           </thead>
           <tbody>
+               <?php
+               if ($_SERVER['REQUEST_METHOD'] == 'GET'){
+                    $sql = "SELECT * FROM feedback";
+                    $result = $connection->query($sql);
+                    if ($result->num_rows > 0){
+          while ($row = $result->fetch_assoc()){
+               $id = $row['id'];
+               $name =  $row['name'];
+               $email =  $row['email'];
+               $feedback = $row['feedback'];
+               $rate = $row['rating'] . "<br>";
+               $dateset =  $row['submission_date'] ;
+
+               ?>
                <tr>
                     <td><?php echo $id; ?></td>
                     <td><?php echo $name; ?></td>
@@ -58,7 +53,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET'){
                     <td><?php echo $feedback; ?></td>
                     <td><?php echo $rate; ?></td>
                     <td><?php echo $dateset; ?></td>
+                    <td>
+                    <a href="/functions/cruidoperation/delete.php?id=<?php echo $id ?>" class="btn btn-danger">Delete</a>
+                    </td>
                </tr>
+               <?php }
+               } 
+          }?>
           </tbody>
           </table>
      </div>
