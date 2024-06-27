@@ -54,7 +54,7 @@ include 'db.php';
                     <td><?php echo $rate; ?></td>
                     <td><?php echo $dateset; ?></td>
                     <td>
-                    <a href="delete.php?id=<?php echo $id ?>" class="btn btn-danger">Delete the rate</a>
+                    <a href="delete.php?id=<?php echo $id ?>" class="btn btn-danger">Delete</a>
                     </td>
                </tr>
                <?php }
