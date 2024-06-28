@@ -13,7 +13,7 @@ include 'db.php';
 <body>
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
      <ul class="row mx-auto w-75">
-          <li class="list-style-none w-50"><a href="index.php"  class="text-decoration-none">Home</a></li>
+          <li class="list-style-none w-50"><a href="index.html"  class="text-decoration-none">Home</a></li>
           <li class="list-style-none w-50"><a href="view.php" class="text-decoration-none">View Ratings</a></li>
      </ul>
    </nav> 
