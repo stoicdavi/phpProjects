@@ -19,7 +19,7 @@ include 'db.php';
    </nav> 
    <section>
      <div class="container">
-          <h1>Your Ratings</h1>
+          <h1>View comments</h1>
           <table class="table table-striped table-bordered">
           <thead>
                <tr>
