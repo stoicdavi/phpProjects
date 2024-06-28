@@ -38,4 +38,6 @@ submission_date date, time default current_timestamp
 - shows an alert that the data has been successfully submitted, then a nav bar to take the user back to the home/input form or the view ratings/view comments page
 - 
 ![image](https://github.com/stoicdavi/phpProjects/assets/117593948/4ee048b2-8abf-4953-82c0-dca77f80d582)
+## The database
+![image](https://github.com/stoicdavi/phpProjects/assets/117593948/758d8362-4b55-4ead-9a0c-02f804e34cad)
 
